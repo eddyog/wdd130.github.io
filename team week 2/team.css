@@ -1,0 +1,125 @@
+
+body{
+    width: 900px;
+    display: center;
+    margin-top: 100px;
+    margin-left: 100px;;
+}
+
+div.index-main {
+    background-color: #E6EDF0;
+    display: grid;
+    grid-template-columns: repeat(14, fr);
+    grid-template-rows: repeat(16, fr) ;
+}
+
+div.personal {
+    background-color: white;
+    grid-column: 2/5;
+    grid-row: 3/12;
+
+}
+
+div.business {
+    background-color: white;
+    grid-column: 6/9;
+    grid-row: 3/12;
+}
+
+div.enterprise {
+    background-color: white;
+    grid-column: 10/13;
+    grid-row: 3/12;
+}
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+
+div.personal, div.enterprise  
+{
+    padding-top: 60px;
+    margin: 50px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+
+p.business-top {
+    color: white;
+    padding: 15px;
+    background-color: #4DB7F9 ;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+div.business {
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 19px;
+}
+
+h3.blue, h2.blue, p.blue, h2.big
+{
+    color:  #4DB7F9 ;
+}
+h2.big{
+    font-size: 65px;
+}
+
+
+sup {
+    font-size: 25px;
+}
+.button-2{
+    background-color:#ffcc29;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.button-1, .button-3{
+    background-color: #DCDCDD;
+    width: 100px;
+    height: 30px;
+}
+button{
+    color:white;
+}
+
+p.gray {
+    color: #9692A0;
+    line-height: 1.7;
+}
+
+div.business{
+    width: 275px;
+}
+
+div.personal, div.enterprise {
+    width: 225px;
+    font-size: 16px;
+}
+
+h2.small {
+    font-size: 50px;
+    margin: 0px;
+}
+
+h2.per {
+    margin: 0px;
+}
+
+p.month {
+    font-size: 25px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
