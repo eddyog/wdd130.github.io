@@ -8,7 +8,7 @@ body{
 
 div.index_main {
     margin-top: 100px;
-    width: 1400px;
+    width: 1300px;
     margin: auto;
     border: 3px solid #EACD86;
     background-color: #FCF8EE;
@@ -78,7 +78,9 @@ h1.title {
 footer{
     border: 3px solid #EACD86;
     background-color: #FCF8EE;
-    margin: 40px;
+    margin: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
     font-size: 1.2em;
     text-align: center;
 
