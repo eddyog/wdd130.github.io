@@ -9,7 +9,7 @@ body{
 div.index_main {
     margin-top: 100px;
     width: 1300px;
-    align-self: center;
+    margin: auto;
     border: 3px solid #EACD86;
     background-color: #FCF8EE;
 }
