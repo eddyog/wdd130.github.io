@@ -1,0 +1,111 @@
+
+body{
+    background-color: #00022E;
+    /*background-color: #EACD86; gold   
+    background-color: #00022E; navy blue
+    background-color: #FCF8EE; white*/
+    
+}
+
+div.index_main {
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    border: 3px solid #EACD86;
+    background-color: #FCF8EE;
+    font-family: 'Imbue', serif;    
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+
+img.apple_image{
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+img.tesla_image {
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+
+}
+
+img.glasses_image {
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+div.apple {
+    width: 100%;
+    height: 100%;
+    font-size: 1.7em;
+}
+
+div.tesla {
+    width: 100%;
+    height: 100%;
+    font-size: 1.7em;
+}
+
+div.glasses {
+    width: 100%;
+    height: 100%;
+    font-size: 1.7em;
+
+}
+
+h1.title {
+    grid-column: 1/8;
+    justify-self: center;
+    font-size: 3.0em;
+    background-color: #00022E;
+    color: #EACD86;
+    padding: 10px;
+}
+
+footer{
+    border: 3px solid #EACD86;
+    background-color: #FCF8EE;
+    margin: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 1.2em;
+    text-align: center;
+
+
+}
+
+
+
+div.apple, div.tesla, div.glasses{
+    margin: 30px;
+}
+
+@media only screen and (min-width: 1200px ) {
+
+    div.index_main {
+        grid-template-columns: auto auto;
+        gap: 1.5em;
+    }   
+
+
+}
+
+@media only screen and (min-width: 670px ) {
+
+    div.index_main {
+        grid-template-columns: auto auto;
+        gap: 1.5em;
+ 
+    }   
+
+
+}
+
