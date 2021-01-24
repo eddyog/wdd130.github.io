@@ -8,6 +8,11 @@ body{
 }
 
 div.index_main {
+
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    max-width: 72em;
     margin-top: 100px;
     width: 90%;
     margin: auto;
@@ -15,11 +20,9 @@ div.index_main {
     padding-left: 40px;
     border: 3px solid #EACD86;
     background-color: #FCF8EE;
+
     font-family: 'Imbue', serif;    
-    
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
+
 }
 
 
@@ -82,13 +85,11 @@ footer{
 
 }
 
-
-
 div.apple, div.tesla, div.glasses{
     margin: 30px;
 }
 
-@media only screen and (min-width: 1200px ) {
+@media only screen and (min-width: 45em ) {
 
     div.index_main {
         grid-template-columns: auto auto;
@@ -98,10 +99,10 @@ div.apple, div.tesla, div.glasses{
 
 }
 
-@media only screen and (min-width: 670px ) {
+@media only screen and (min-width: 100em ) {
 
     div.index_main {
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         gap: 1.5em;
  
     }   
