@@ -3,21 +3,19 @@ div.main {
     font-family: 'Oswald', sans-serif;
 }
 
-div.content, footer{
+div.inside, footer{
     max-width: 1250px;
     margin: auto;
   
   }
 
 body{
-    background-color: #8AD0E5;
+    background-color: #F9AB62;
 }
 
 div.content{
 
     background-color: #F7EBDE;
-    display: grid;
-    grid-template-columns: auto;
 }
 
 
@@ -26,12 +24,6 @@ div.content{
 img.logo_image {
     width: 100%;
     height: 100%;
-}
-
-img.banner {
-    width: 100%;
-    height: 300px;
-    grid-column: 1/2 ;
 }
 
 
@@ -44,9 +36,10 @@ img.logo_main{
   /*************************** NAVIGATION BAR ***************************/
 
 header {
-    border: 15px solid #8AD0E5;
+    border: 15px solid #F7EBDE;
     display: grid;
     grid-template-columns: 110px auto;
+    background-color: #F7EBDE;
 
   }
   
@@ -59,21 +52,193 @@ header {
   }
   
   div.logo-box {
-    background-color: white;
+    background-color: #F7EBDE;
   }
   
   
   li {
-    border: 5px solid #D6FDFF;
+    border: 5px solid #F7EBDE;
     font-family: cabin;
     font-weight: bold;
     font-size: 1.6em;
-    background-color: #EACD86;
-    border: 2px solid white;
-    grid-column: 1 solid #D6FDFF;
+    background-color: #99DADE;
+    border: 2px solid #F7EBDE;
+    grid-column: 1 solid #F7EBDE;
     margin-top: 15px;
   }
 
   /*************************** MAIN ***************************/
 
-  
+  div.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+    div.banner{
+        grid-column: 1/3;
+        min-width: 0;
+        min-height: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    img.banner{
+        width: 100%;
+        height: 300px;
+    }
+
+    div.name{
+        grid-row: 2/2;
+        grid-column: 1/3;
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 1em;
+    }
+    
+    div.domain{
+        grid-row: 3/3;
+        grid-column: 1/2;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 20px;
+
+    }
+
+    div.purpose{
+        padding-top: 100px;
+        grid-row: 3/3;
+        grid-column: 1/2;
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 1em;
+        font-size: 22px;
+    }
+
+    div.logo-box{
+        grid-row: 3/4;
+        grid-column: 2/2;
+        overflow: hidden;
+        text-align: center;
+        background-color: #F7EBDE;
+        border: 10px solid #99DADE;
+        margin: 1em;
+        padding-bottom: 30px;
+    }
+
+    img.logo_main{
+        width: 80%;
+    }
+
+  /*************************** FOOTER ***************************/
+
+
+
+    footer a, footer a:link,footer a:visited, footer a:hover, footer a:active, footer a:focus
+{
+    color: blue;
+}
+
+footer a:hover{
+    color: red;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #F7EBDE;
+}
+
+footer p.legal{
+    margin-bottom: 9px;
+    font-size: 1.2em;
+}
+
+footer p.highlight {
+    color: black;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+
+
+  /*************************** Audience  ***************************/
+
+  div.audience{
+      grid-row: 2/2;
+      grid-column: 1/2;
+      text-align: center;
+      border: 10px solid #99DADE;
+      margin: 2em;
+  }
+
+  div.scenarios {
+      grid-row: 3/3;
+      grid-column: 1/2;
+      text-align: center;
+      border: 10px solid #99DADE;
+      margin: 2em;
+  }
+
+  div.two-personas {
+      grid-row: 2/3;
+      grid-column: 2/2;
+      text-align: center;
+      border: 10px solid #99DADE;
+      margin: 2em;
+  }
+
+    /*************************** COLOR SCHEME  ***************************/
+
+    div.palette{
+        grid-row: 3/3;
+        grid-column: 1/3;
+        min-width: 0;
+        min-height: 0;
+        overflow: hidden;
+        padding: 0;
+
+    }
+
+    img.palette{
+        width: 100%;
+        height: 500px;
+    }
+
+    div.color{
+        grid-row:2/2;
+        grid-column: 1/2;
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 2em;
+    }
+
+    div.color-link{
+        grid-row: 2/2;
+        grid-column: 2/3;
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 2em;
+        font-size: 30px;
+    }
+
+        /*************************** Typography  ***************************/
+
+        div.typography{
+            grid-row: 2/3;
+            grid-column: 1/2;
+           text-align: center;
+            border: 10px solid #99DADE;
+            margin: 2em;
+            font-size: 20px; 
+
+        }
+
+        div.examples {
+            grid-row: 2/3;
+            grid-column: 2/2;
+            text-align: center;
+            border: 10px solid #99DADE;
+            margin: 2em;
+            font-size: 20px;
+        }
