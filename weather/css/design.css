@@ -9,17 +9,45 @@ div.content, footer{
   
   }
 
+body{
+    background-color: #8AD0E5;
+}
 
-  /*************************** NAVIGATION BAR ***************************/
+div.content{
+
+    background-color: #F7EBDE;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+  /*************************** IMAGES ***************************/
 
 img.logo_image {
     width: 100%;
     height: 100%;
 }
 
+img.banner {
+    width: 100%;
+    height: 300px;
+    grid-column: 1/2 ;
+}
+
+
+img.logo_main{
+    width: 35%;
+    height: 35%;
+  }
+
+
+  /*************************** NAVIGATION BAR ***************************/
+
 header {
+    border: 15px solid #8AD0E5;
     display: grid;
     grid-template-columns: 110px auto;
+
   }
   
   nav ul {
@@ -48,8 +76,4 @@ header {
 
   /*************************** MAIN ***************************/
 
-  img.logo_main{
-    width: 50%;
-    height: 50%;
-  }
   
