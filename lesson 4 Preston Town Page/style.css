@@ -117,11 +117,9 @@ nav{
 
   /*************************** MAIN ***************************/
 
-
-div.logo{
-    object-position: center;
+header{
+    text-align: center;
 }
-
   div.content {
     display: grid;
     grid-template-columns: 1fr 1fr;
