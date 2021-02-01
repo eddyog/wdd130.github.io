@@ -134,6 +134,9 @@ header{
         padding: 0;
     }
 
+    a.ham{
+        text-align: center;
+    }
     img.banner{
         width: 100%;
         height: 300px;
@@ -146,36 +149,40 @@ header{
         border: 10px solid #99DADE;
         margin: 1em;
     }
-    
-    div.domain{
-        grid-row: 3/3;
-        grid-column: 1/2;
-        text-align: center;
-        font-size: 18px;
-        padding-top: 20px;
 
-    }
-
-    div.purpose{
-        padding-top: 100px;
-        grid-row: 3/3;
-        grid-column: 1/2;
+    div.summary{
+        grid-column: 1/3;
         text-align: center;
         border: 10px solid #99DADE;
         margin: 1em;
-        font-size: 22px;
+
+    }
+    div.information{
+        grid-column: 1/3;
+        text-align: center;
     }
 
-    div.logo-box{
-        grid-row: 3/4;
-        grid-column: 2/2;
-        overflow: hidden;
+    div.day{
+        grid-column: 1/3;
         text-align: center;
-        background-color: #F7EBDE;
         border: 10px solid #99DADE;
         margin: 1em;
-        padding-bottom: 30px;
     }
+
+    div.article{
+        grid-column: 1/3;
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 1em;
+    }
+
+    div.contact{
+        grid-column: 1/3;
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 1em;
+    }
+
 
     img.logo_main{
         width: 80%;
