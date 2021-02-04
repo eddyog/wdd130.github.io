@@ -179,13 +179,6 @@ nav{
 
 
 
-    div.article{
-        grid-column: 1/3;
-        text-align: center;
-        border: 10px solid #99DADE;
-        margin: 1em;
-    }
-
     div.contact{
         grid-column: 1/3;
         text-align: center;
@@ -235,7 +228,7 @@ footer p.highlight {
 div.summary{
     position: absolute;
     width: 250px;
-    height: 180px;
+    height: 190px;
     top: 12px;
     left: 27px;
     background-color: #F7EBDE;
@@ -280,6 +273,39 @@ span.day-background{
     border-left: 32px solid #f9ab62;
     border-right: 32px solid #f9ab62;
 }
+
+/*************************** ARTICLE ***************************/
+
+div.article{
+    grid-column: 1/3;
+    text-align: center;
+    border: 10px solid #99DADE;
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+img.boys{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+div.boys{
+    grid-column: 2/2;
+    text-align: center;
+}
+
+div.article-information{
+    grid-column: 1/1;
+    padding: 50px;
+    font-size: 21px;
+}
+
+
+
+
+
 
 
 
