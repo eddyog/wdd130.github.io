@@ -18,6 +18,7 @@ body{
 div.content{
 
     background-color: #F7EBDE;
+    position: relative;
 }
 
 nav{
@@ -218,4 +219,26 @@ footer p.highlight {
     font-size: 1.2em;
     margin-top: 0;
 }
+
+
+/*************************** Weather Summary Block***************************/
+
+
+div.summary{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    top: 12px;
+    left: 27px;
+    background-color: #F7EBDE;
+    border: none;
+    line-height: 8px;   /* within paragraph */
+    font-size: 20px;
+}
+
+span.yellow{
+    color: rgb(255, 81, 0);
+}
+    
+
 
