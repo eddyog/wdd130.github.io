@@ -10,7 +10,9 @@ div.inside, footer{
   }
 
 body{
-    background-color: #F9AB62;
+    background: rgb(249,171,98);
+    background: linear-gradient(0deg, rgba(249,171,98,1) 17%, rgba(249,171,98,1) 46%, rgba(46,171,203,1) 82%, rgba(193,244,251,1) 99%);
+
 }
 
 div.content{
@@ -28,7 +30,6 @@ nav{
 img.logo_image {
     width: 150px;
     height: 150px;
-
 }
 
 
@@ -118,7 +119,7 @@ nav{
   /*************************** MAIN ***************************/
 
 header{
-    text-align: center;
+    text-align: left;
 }
   div.content {
     display: grid;
