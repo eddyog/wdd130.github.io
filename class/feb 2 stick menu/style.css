@@ -20,17 +20,12 @@ div.content{
     height: 100%;
     background: rgb(0,129,184);
     background: linear-gradient(0deg, rgba(0,129,184,1) 17%, rgba(0,147,209,0.6292892156862745) 29%, rgba(247,252,252,0) 100%);
-
-
-
 }
 
 img.big {
     width: 500px;
     height: 950px;
-        z-index: 6;
-    
-    
+        z-index: 6;   
 }
 
 div.title{

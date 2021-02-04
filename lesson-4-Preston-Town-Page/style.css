@@ -6,7 +6,6 @@ div.main {
 div.inside, footer{
     max-width: 1250px;
     margin: auto;
-  
   }
 
 body{
@@ -14,7 +13,6 @@ body{
 }
 
 div.content{
-
     background-color: #F7EBDE;
 }
 
@@ -34,6 +32,9 @@ img.logo_image {
 
   /*************************** NAVIGATION BAR ***************************/
 
+header{
+    text-align: left;
+}
 
 nav{
     margin: 0 auto;
@@ -117,9 +118,6 @@ nav{
 
   /*************************** MAIN ***************************/
 
-header{
-    text-align: center;
-}
   div.content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -183,10 +181,6 @@ header{
         margin: 1em;
     }
 
-
-    img.logo_main{
-        width: 80%;
-    }
 
   /*************************** FOOTER ***************************/
 
