@@ -163,8 +163,8 @@ nav{
 
     }
     img.boys{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         grid-column: 1;
         padding-bottom: 0;
     }
@@ -172,7 +172,7 @@ nav{
     div.boys{
         grid-row: 1;
         grid-column: 1;
-        width: 450px;
+        width: 400px;
         padding-bottom: 0;
 
     }
@@ -201,13 +201,13 @@ nav{
 
     div.map{
         grid-row: 2/2;
-        padding-left: 70px;
+        padding-left: 40px;
     }
     
     div.contact-information{
         grid-row: 1/1;
         align-self: center;
-        padding-left: 80px;
+        padding-left: 50px;
         padding-bottom: 30px;
     }
     
