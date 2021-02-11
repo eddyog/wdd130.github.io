@@ -1,3 +1,5 @@
+
+
 window.addEventListener('load', (event)=>{
     const lu = document.querySelector ('#lastupdated');
     lu.textContent = document.lastModified;
@@ -21,3 +23,37 @@ window.addEventListener('load', (event)=>{
 })
 
 
+window.addEventListener('load', (event)=>{ 
+
+    
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+    // Get DayOfWeek from int value
+
+
+
+
+    var greet;
+
+
+    if (hrs < 12)
+        greet = 'Good Morning ';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon ';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening ';
+
+        
+
+    document.getElementById('lblGreetings').innerHTML =
+        '<b>' + greet + '</b> and welcome to The Hottie Weather!';
+})
+
+window.addEventListener('load', (event)=> {
+    var d = new Date();
+    var n = d.getDay()
+
+    if(n == 6)
+        greet = 'Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.'
+    document.getElementById("demo").innerHTML = greet;
+})

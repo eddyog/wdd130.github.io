@@ -25,6 +25,25 @@ nav{
     margin: 0
 }
 
+#lblGreetings{
+    background-color: blanchedalmond;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    border: 1px solid;
+    text-align: center;
+}
+
+#demo{
+    background-color: blanchedalmond;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
 
   /*************************** IMAGES ***************************/
 
@@ -97,12 +116,18 @@ nav{
 
 #navigation a:hover{
     color: white;
-    background-color: #f9ab62;
+    background-color: #99DADE;
 }
 
 #navigation.responsive li {
     display: block;
 }
+
+li.home{
+    background-color: #f9ab62;
+}
+
+
 
 /*************************** Navigation Bar different sizes ***************************/
 
@@ -425,10 +450,6 @@ img.snapchat{
 	to {
 		background-position: 200% center;
 	}
-}
-
-li.home{
-    background-color: #99DADE;
 }
 
 
