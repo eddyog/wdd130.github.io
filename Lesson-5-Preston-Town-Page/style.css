@@ -29,18 +29,24 @@ nav{
     background-color: blanchedalmond;
     font-size: 25px;
     align-items: center;
-    display: flex;
     height: 40px;
-    border: 1px solid;
+    display: flex;
     text-align: center;
+    justify-content: center;
+
+
 }
 
 #demo{
     background-color: blanchedalmond;
     font-size: 25px;
-    align-items: center;
+    align-items: center; 
     display: flex;
     text-align: center;
+    justify-content: center;
+}
+
+p.demo{
     color: black;
 }
 

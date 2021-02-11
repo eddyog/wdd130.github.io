@@ -46,14 +46,14 @@ window.addEventListener('load', (event)=>{
         
 
     document.getElementById('lblGreetings').innerHTML =
-        '<b>' + greet + '</b> and welcome to The Hottie Weather!';
+        '<b>' + greet + '\n and welcome to The Hottie Weather!';
 })
 
 window.addEventListener('load', (event)=> {
     var d = new Date();
     var n = d.getDay()
 
-    if(n == 6)
-        greet = 'Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.'
+    if(n == 4)
+        greet = 'Friday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.'
     document.getElementById("demo").innerHTML = greet;
 })
