@@ -1,0 +1,461 @@
+
+div.main {
+    font-family: 'Oswald', sans-serif;
+}
+
+div.inside, footer{
+    max-width: 1250px;
+    margin: auto;
+  
+  }
+
+body{
+    background: rgb(249,171,98);
+    background: linear-gradient(0deg, rgba(249,171,98,1) 17%, rgba(249,171,98,1) 46%, rgba(46,171,203,1) 82%, rgba(193,244,251,1) 99%);
+
+}
+
+div.content{
+
+    background-color: #F7EBDE;
+    position: relative;
+}
+
+nav{
+    margin: 0
+}
+
+#lblGreetings{
+    background-color: blanchedalmond;
+    font-size: 25px;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#demo{
+    background-color: blanchedalmond;
+    font-size: 25px;
+    align-items: center; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p.demo{
+    color: black;
+}
+
+
+  /*************************** IMAGES ***************************/
+
+img.logo_image {
+    width: 150px;
+    height: 150px;
+}
+
+
+  /*************************** NAVIGATION BAR ***************************/
+
+  div.name{
+    display: flex;
+    margin: 1em;
+    grid-row: 2/2;
+    grid-column: 1/3;
+    text-align: center;
+    border: 20px solid #f9ab62;
+    margin: 0;
+    background-color: #F7EBDE;
+
+}
+
+h1.name{
+    align-self: center;
+    padding-left: 22%;
+    color: black;
+    font-size: 50px;
+}
+
+div.logo{
+    text-align: left;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #F7EBDE;
+    font-size: 1.3em;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#navigation li:first-child{
+    display: block;
+}
+
+#navigation li{
+    display: none;
+}
+
+#navigation a:link, 
+#navigation a:visited, 
+#navigation a:hover, 
+#navigation a:active,
+#navigation a:focus{
+    display: block;
+    padding: 0.75em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+#navigation a:hover{
+    color: white;
+    background-color: #99DADE;
+}
+
+#navigation.responsive li {
+    display: block;
+}
+
+li.home{
+    background-color: #f9ab62;
+}
+
+
+
+/*************************** Navigation Bar different sizes ***************************/
+
+
+@media only screen and (min-width:34.5em) {
+    nav {
+        max-width: 100%;
+    }
+    #navigation {
+        grid-template-columns: repeat(7,auto);
+    }
+    #navigation li{
+        display: block;
+    }
+
+    #navigation a:link, 
+    #navigation a:visited, 
+    #navigation a:hover, 
+    #navigation a:active,
+    #navigation a:focus{
+        text-align: center;
+    }
+
+    #navigation li:first-chlid{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width:54.5em){
+    #navigation{
+        width: 800px;
+        margin: 16px auto;
+    }
+
+    
+}
+
+@media only screen and (max-width:34.5em){
+    div.day{
+        display: none;
+    }
+
+    h1.name{
+        align-self: center;
+        padding-left: 5%;
+        color: black;
+        font-size: 50px;
+    }
+
+    div.article{
+        border: 10px solid #99DADE;
+        margin: 1em;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+
+    }
+    img.boys{
+        width: 300px;
+        height: 300px;
+        grid-column: 1;
+        padding-bottom: 0;
+    }
+    
+    div.boys{
+        grid-row: 1/2;
+        grid-column: 1;
+        width: 400px;
+        padding-bottom: 0;
+
+    }
+    
+    div.article-information{
+
+        font-size: 21px;
+        grid-row: 2;
+        grid-column: 1/1;
+        width: 350px;
+
+    }
+
+
+    div.contact{
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 1em;
+        font-size: 20px;
+        line-height: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+  
+    }
+
+    div.map{
+        grid-row: 2/2;
+        padding-left: 40px;
+    }
+    
+    div.contact-information{
+        grid-row: 1/1;
+        align-self: center;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    
+
+    
+
+}
+
+
+  /*************************** MAIN ***************************/
+
+
+  div.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+    div.banner{
+        grid-column: 1/3;
+        min-width: 0;
+        min-height: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    a.ham{
+        text-align: center;
+    }
+    img.banner{
+        width: 100%;
+        height: 300px;
+    }
+
+
+    div.summary{
+        grid-column: 1/3;
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 1em;
+
+    }
+    div.information{
+        grid-column: 1/3;
+        text-align: center;
+    }
+
+
+
+
+
+    img.logo_main{
+        width: 80%;
+    }
+
+  /*************************** FOOTER ***************************/
+
+
+
+    footer a, footer a:link,footer a:visited, footer a:hover, footer a:active, footer a:focus
+{
+    color: blue;
+}
+
+footer a:hover{
+    color: red;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #f9ab62;
+}
+
+footer p.legal{
+    margin-bottom: 9px;
+    font-size: 1.2em;
+}
+
+footer p.highlight {
+    color: black;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+
+/*************************** Weather Summary Block***************************/
+
+
+div.summary{
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    top: 12px;
+    left: 27px;
+    background-color: #F7EBDE;
+    border: none;
+    line-height: 8px;   /* within paragraph */
+    font-size: 20px;
+}
+
+span.yellow{
+    color: rgb(255, 81, 0);
+}
+
+/*************************** 5 DAY FORECAST ***************************/
+
+div.day{
+    border: 10px solid #99DADE;
+    margin: 1em;
+}
+
+div.week-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+img.sunny{
+    height: 50px;
+    width: 50px;
+}
+
+p.wed{
+    border: 2px solid black;
+    width: 100px;
+    font-size: 20px;
+}
+
+span.day-background{
+    background-color: #f9ab62;
+    margin-left: 0;
+    border-left: 32px solid #f9ab62;
+    border-right: 32px solid #f9ab62;
+}
+
+/*************************** ARTICLE ***************************/
+
+div.article{
+    grid-column: 1/3;
+    text-align: center;
+    border: 10px solid #99DADE;
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+img.boys{
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div.boys{
+    text-align: center;
+}
+
+div.article-information{
+    grid-column: 1/1;
+    padding-left: 50px;
+    font-size: 21px;
+}
+
+/*************************** CONTACT INFORMATION ***************************/
+
+div.contact{
+    text-align: center;
+    border: 10px solid #99DADE;
+    margin: 1em;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.contact-information{
+    align-self: center;
+}
+
+
+img.map{
+    width: 300px;
+    height: 300px;
+}
+
+img.facebook{
+    width: 50px;
+    height: 50px;
+}
+
+img.instagram{
+    width: 50px;
+    height: 50px;
+}
+
+img.twiter{
+    width: 50px;
+    height: 50px;
+}
+img.snapchat{
+    width: 50px;
+    height: 50px;
+}
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+
+    
+
+
