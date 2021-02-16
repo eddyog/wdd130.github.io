@@ -217,7 +217,7 @@ li.home{
     div.boys{
         grid-row: 1/2;
         grid-column: 1;
-        width: 350px;
+        width: 300px;
         padding-bottom: 0;
 
     }
