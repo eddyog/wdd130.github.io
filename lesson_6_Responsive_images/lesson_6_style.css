@@ -58,6 +58,19 @@ img.logo_image {
     height: 150px;
 }
 
+main figure.banner{
+    grid-column: 1/3;
+    overflow: hidden;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+img.banner{
+    width: 100%;
+    height: 100%;
+}
+
 
   /*************************** NAVIGATION BAR ***************************/
 
@@ -130,14 +143,14 @@ nav{
 }
 
 li.home{
-    background-color: #f9ab62;
+    background-color:  #f9ab62;
 }
 
 
 
 /*************************** Navigation Bar different sizes ***************************/
 
-
+/************ this is for a phone screen  *********/
 @media only screen and (min-width:34.5em) {
     nav {
         max-width: 100%;
@@ -256,23 +269,14 @@ li.home{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-}
-
-    div.banner{
-        grid-column: 1/3;
-        min-width: 0;
-        min-height: 0;
-        overflow: hidden;
-        padding: 0;
     }
+
+
 
     a.ham{
         text-align: center;
     }
-    img.banner{
-        width: 100%;
-        height: 300px;
-    }
+   
 
 
     div.summary{
