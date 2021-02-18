@@ -218,7 +218,6 @@ li.home{
     div.boys{
         grid-row: 1/2;
         grid-column: 200px;
-        border: 20px solid black ;
         padding-bottom: 0;
 
     }
