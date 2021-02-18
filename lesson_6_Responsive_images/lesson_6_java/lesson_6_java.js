@@ -1,5 +1,7 @@
 
 
+
+
 window.addEventListener('load', (event)=>{
     const lu = document.querySelector ('#lastupdated');
     lu.textContent = document.lastModified;
@@ -49,11 +51,12 @@ window.addEventListener('load', (event)=>{
         '<b>' + greet + '\n and welcome to The Hottie Weather!';
 })
 
+
 window.addEventListener('load', (event)=> {
     var d = new Date();
-    var n = d.getDay()
+    var n = d.getDay();
 
     if(n == 5)
-        greet = 'Friday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.'
+        greet = 'Friday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.';
     document.getElementById("demo").innerHTML = greet;
 })
