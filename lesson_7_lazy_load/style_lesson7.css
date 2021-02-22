@@ -1,0 +1,56 @@
+img {
+    width: 300px;
+    height: 400px;
+}
+
+div.content{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+img.loading {
+    background-color: lightskyblue;
+    position: relative;
+}
+.placeholder-loading::before {
+    content:"";
+    display: block;
+    position: absolute;
+    left:-300px;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background: linear-gradient(to right, transparent 0%, #ffffff 50%, transparent 100%);
+    animation: load 2.5s;
+    z-index: 50;
+}
+
+.placeholder-loading {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto;
+    max-width: 100%;        
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}
+
+.loading {
+    max-width: 300px;
+    max-height: 400px;
+    position: relative;
+}
+
+@keyframes load {
+    0% {
+        left:-300px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
