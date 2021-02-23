@@ -258,12 +258,6 @@ img.loading {
     }
 }
 
-.placeholder-loading:hover {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 #EDAE49, 0 6px 20px 0 #EDAE49;
-    transform: scale(1.1);
-    z-index: 50;
-}
 
 
 /*************************** Navigation Bar different sizes ***************************/
@@ -311,6 +305,7 @@ img.loading {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
+
 
 }
 

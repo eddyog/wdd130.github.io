@@ -1,0 +1,45 @@
+main{
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+
+table, th, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  /*************************** FOOTER ***************************/
+
+
+
+  footer a, footer a:link,footer a:visited, footer a:hover, footer a:active, footer a:focus
+  {
+      color: blue;
+  }
+  
+  footer a:hover{
+      color: red;
+  }
+  
+  footer {
+      clear: both;
+      text-align: center;
+  }
+  
+  footer p.legal{
+      margin-bottom: 9px;
+      font-size: 1.2em;
+  }
+  
+  footer p.highlight {
+      color: black;
+      font-size: 1.2em;
+      margin-top: 0;
+  }
