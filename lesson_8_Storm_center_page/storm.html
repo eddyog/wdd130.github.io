@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+    <title>heather weather</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Normatization -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/lesson_8_Storm_center_page/style/storm_style.css">
+    <script src="/lesson_8_Storm_center_page/java/storm_java.js"></script>  
+    <!-- The links for the google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class = 'inside'>
+            <header>
+                
+                <label id="lblGreetings"></label>
+                <p id="demo" class="demo"></p>
+
+                <div class = 'name'>
+                    <div class = "logo">
+                        <img src="/lesson_6_Responsive_images/images/logo.jpg" alt="logo" class = "logo_image">
+                    </div>
+                    <h1 class="name">The Hottie Weather</h1>
+                    
+                </div>
+
+            <nav>
+                <ul id="navigation"> 
+                    <li><a href="#" class="ham">&#9776;</a></li>
+                    <li class ="home"><a href="/lesson_6_Responsive_images/lesson_6_index.html">Home</a></li>
+                    <li class = "preston"> <a href="/lesson-4-Preston-Town-Page/images/barnie.jpg"> Preston</a></li>
+                    <li class = "soda"><a href="/lesson-4-Preston-Town-Page/images/barnie.jpg"> Soda Springs</a></li>
+                    <li class = "fish"><a href="/lesson-4-Preston-Town-Page/images/barnie.jpg"> Fish Haven</a></li>
+                    <li class = "storm"><a href="/lesson-4-Preston-Town-Page/images/barnie.jpg"> Storm Center</a></li>
+                    <li class = "gallery"><a href="/lesson_6_Responsive_images/gallery/gallery.html"> Gallery</a></li>
+                </ul>
+            </nav>  
+            </header>
+            <div >
+
+                <div class="content">
+
+                    <h1 class="title">Plese introduce the information of the storm</h1>
+                    <label for="">Enter your Name <input type="text" size="20" name="name" id="name" required pattern="[A-Za-z]" minlength="5"></label> <br><br>
+                    <label for=""> Email <input type="email" name="emal" placeholder="user@email.org"></label> <br><br>
+                    <label for=""> Phone Number <input type="tel" name="phone" required > </label> <br><br>
+                    <label for="">Zip Code <input type="number" name="zip" required></label><br><br>
+                    <label for="">Storm Date <input type="date" name="date" required></label><br><br>
+                    
+                    <label for="">Storm type <input name="storm_type" list="storm_type">
+                        <datalist id="storm_type">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+                    </label> <br><br>
+
+                    <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+            
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist><br><br>
+
+                    <label for="">Storm Region:</label>
+                    <select name="storm_region" id="storm_region">
+                        <option value="Disable"></option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda_spring">Soda Spring</option>
+                        <option value="fish_heaven">Fish Heaven</option>
+                    </select> <br><br>
+
+                    <label for="Danger_level">
+                        <legend>Are you in Danger</legend>
+                        <div class="selection">
+                            <label><input type="radio" id="yes" name="yes" > Yes</label>
+                        </div>
+                        <div class="selection">
+                            <label><input type="radio" id="no" name="no" > No</label>
+                        </div>
+                        <div class="selection">
+                            <label><input type="radio" id="maybe" name="maybe" > Maybe</label>
+                        </div>
+                    </label>
+                    </fieldset> <br>
+
+                    <label for="">Additional Information <input type="text"></label> <br><br>
+                    
+                    <input type="submit" value="Submit">
+                </div>
+    
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class='legal'> &copy; <span id='copyrightyear'></span> | Eddy O Gonzalez | Guatemala | <a href ='http://www.byui.edu/online'> BYUI Online Learning </a> </p>
+        <p class='highlight'>Last Updated: <span id='lastupdated'></span> </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <script>
+        WebFont.load({ google: { families: ['Oswald']}});
+    </script>
+</body>
+
+</html>
+  
+
