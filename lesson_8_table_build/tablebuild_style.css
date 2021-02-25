@@ -1,19 +1,52 @@
 main{
 
     font-family: 'Ubuntu', sans-serif;
-}
-
-body{
-    text-align: center;
-}
-table{
-    text-align: center;
+    margin-top: 200px;
+    margin-left: 650px;
 }
 
 table, th, td, tr{
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 10px;
   }
+
+  table{
+      font-size: 20px;
+      text-align: center;
+      width: 400px;
+  }
+
+
+
+
+  /*************************** COLOR ***************************/
+
+  thead, tfoot{
+      background-color: #7fb9c1;
+  }
+
+  thead{
+      font-size: 30px;
+      font: bold;
+  }
+
+  
+
+  tr.blue, th.blue{
+    background-color: #628ca5;
+    color: white;
+  }
+
+  tr.gray {
+      background-color: #e7f0ed;
+  }
+
+  tr.green{
+      background-color: #e8feed;
+  }
+
+
 
   /*************************** FOOTER ***************************/
 
