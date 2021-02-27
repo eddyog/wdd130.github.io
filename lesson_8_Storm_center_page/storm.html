@@ -48,13 +48,13 @@
                 <div class="content">
 
                     <br><br>
-                    <div class="box"> <label for="name">Enter your Name </label>  <input class="box" type="text" size="14" name="name" id="name" required pattern="[A-Za-z]" minlength="5"></div><br><br>
-                    <div class="box"> <label for="email"> Email </label><input type="email" name="emal" placeholder="user@email.org"></div><br><br>
-                    <div class="box"> <label for="phone"> Phone Number </label><input type="tel" name="phone" required > <br><br></div><br><br>
-                    <div class="box"> <label for="zip">Zip Code </label><input type="numbers" name="zip" required><br><br></div><br><br>
-                    <div class="box"> <label for="zip">Storm Date </label><input type="date" name="date" required><br><br></div><br><br>
+                    <div class="box"> <label >Enter your Name </label>  <input class="box" type="text" size="14" name="name" id="name" required pattern="[A-Za-z]" minlength="5"></div><br><br>
+                    <div class="box"> <label > Email </label><input type="email" name="emal" placeholder="user@email.org"></div><br><br>
+                    <div class="box"> <label > Phone Number </label><input type="tel" name="phone" required > <br><br></div><br><br>
+                    <div class="box"> <label >Zip Code </label><input type="text" name="zip" required><br><br></div><br><br>
+                    <div class="box"> <label >Storm Date </label><input type="date" name="date" required><br><br></div><br><br>
                     
-                    <div class="box"><label for="type">Storm type </label><input name="storm_type" list="storm_type">
+                    <div class="box"><label >Storm type </label><input name="storm_type" list="storm_type">
                         <datalist id="storm_type">
                             <option value="Flash Flood"></option>
                             <option value="Hail"></option>
@@ -64,7 +64,7 @@
                         </datalist>
                      </div> <br><br>
 
-                    <div class="box"> <label for="rating">Storm Severity: &nbsp;&nbsp;&nbsp; </label>
+                    <div class="box"> <label >Storm Severity: &nbsp;&nbsp;&nbsp; </label>
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                      
@@ -83,16 +83,15 @@
                         <option value="10">
                     </datalist></div><br><br>
 
-                    <div class="box"><label for="region">Storm Region:</label>
+                    <div class="box"><label >Storm Region:</label>
                     <select name="storm_region" id="storm_region">
-                        <option value="Disable"></option>
                         <option value="Preston">Preston</option>
                         <option value="Soda_spring">Soda Spring</option>
                         <option value="fish_heaven">Fish Heaven</option>
                     </select></div> <br><br>
 
                     <div class="box">
-                        <label for="danger" >Are you in Danger 
+                        <label>Are you in Danger 
                         <div class="selection">
                             <label><input type="radio" name="danger" value="9">Yes</label>
                         </div>
@@ -104,7 +103,7 @@
                         </div> <br> <br></label>
                     </div>
 
-                    <div class="box"> <label for="additional">Additional Information </label>  <input class="box" type="text" size="20" name="name" id="name" required pattern="[A-Za-z]" ></div><br><br>
+                    <div class="box"> <label >Additional Information </label>  <input class="box" type="text" size="20" name="name" id="name" required pattern="[A-Za-z]" ></div><br><br>
                     
                     <div class="box sub" > <input class="box" type="submit" value="Submit"></div> <br> <br>
                 </div>
