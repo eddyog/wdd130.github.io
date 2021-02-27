@@ -48,13 +48,13 @@
                 <div class="content">
 
                     <br><br>
-                    <div class="box"> <label for="">Enter your Name </label>  <input class="box" type="text" size="14" name="name" id="name" required pattern="[A-Za-z]" minlength="5"></div><br><br>
-                    <div class="box"> <label for=""> Email </label><input type="email" name="emal" placeholder="user@email.org"></div><br><br>
-                    <div class="box"> <label for=""> Phone Number </label><input type="tel" name="phone" required > <br><br></div><br><br>
-                    <div class="box"> <label for="">Zip Code </label><input type="number" name="zip" required><br><br></div><br><br>
-                    <div class="box"> <label for="">Storm Date </label><input type="date" name="date" required><br><br></div><br><br>
+                    <div class="box"> <label for="name">Enter your Name </label>  <input class="box" type="text" size="14" name="name" id="name" required pattern="[A-Za-z]" minlength="5"></div><br><br>
+                    <div class="box"> <label for="email"> Email </label><input type="email" name="emal" placeholder="user@email.org"></div><br><br>
+                    <div class="box"> <label for="phone"> Phone Number </label><input type="tel" name="phone" required > <br><br></div><br><br>
+                    <div class="box"> <label for="zip">Zip Code </label><input type="numbers" name="zip" required><br><br></div><br><br>
+                    <div class="box"> <label for="zip">Storm Date </label><input type="date" name="date" required><br><br></div><br><br>
                     
-                    <div class="box"><label for="">Storm type </label><input name="storm_type" list="storm_type">
+                    <div class="box"><label for="type">Storm type </label><input name="storm_type" list="storm_type">
                         <datalist id="storm_type">
                             <option value="Flash Flood"></option>
                             <option value="Hail"></option>
@@ -83,7 +83,7 @@
                         <option value="10">
                     </datalist></div><br><br>
 
-                    <div class="box"><label for="">Storm Region:</label>
+                    <div class="box"><label for="region">Storm Region:</label>
                     <select name="storm_region" id="storm_region">
                         <option value="Disable"></option>
                         <option value="Preston">Preston</option>
@@ -92,7 +92,7 @@
                     </select></div> <br><br>
 
                     <div class="box">
-                        <label >Are you in Danger 
+                        <label for="danger" >Are you in Danger 
                         <div class="selection">
                             <label><input type="radio" name="danger" value="9">Yes</label>
                         </div>
@@ -104,9 +104,9 @@
                         </div> <br> <br></label>
                     </div>
 
-                    <div class="box"> <label for="">Additional Information </label>  <input class="box" type="text" size="10" name="name" id="name" required pattern="[A-Za-z]" ></div><br><br>
+                    <div class="box"> <label for="additional">Additional Information </label>  <input class="box" type="text" size="20" name="name" id="name" required pattern="[A-Za-z]" ></div><br><br>
                     
-                    <div class="box sub" > <input class="box" type="submit" value="Submit"></div>
+                    <div class="box sub" > <input class="box" type="submit" value="Submit"></div> <br> <br>
                 </div>
     
             </div>
