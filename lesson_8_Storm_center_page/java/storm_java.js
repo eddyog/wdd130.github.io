@@ -60,3 +60,20 @@ window.addEventListener('load', (event)=> {
         greet = 'Friday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.';
     document.getElementById("demo").innerHTML = greet;
 })
+
+
+
+
+/********************* RATING *****************/
+
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+
+function selectResponse() {
+	const s = document.querySelector('#selected')
+	const sel = document.querySelector('#storm_type');
+	s.style.display = "block";
+	s.textContent = sel.value;
+	
+}
