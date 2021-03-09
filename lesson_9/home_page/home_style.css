@@ -12,7 +12,7 @@ body{
 
 }
 
-div.content{
+div.main{
 
     background-color: #F7EBDE;
 }
@@ -232,7 +232,6 @@ footer p.highlight {
 
 }
 
-
            /***** Meidum Screen **********/
 
 
@@ -246,4 +245,9 @@ footer p.highlight {
         }
     }
 
+    /*********************************** Home Page   *********************************/
+
+    h2.wireframe{
+        text-align: center;
+    }
 
