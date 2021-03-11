@@ -17,6 +17,10 @@ div.main{
     background-color: #F7EBDE;
 }
 
+div.content {
+    background-color: #F7EBDE;
+}
+
 nav{
     margin: 0
 }
@@ -248,6 +252,23 @@ footer p.highlight {
     /*********************************** Home Page   *********************************/
 
     h2.wireframe{
+        width: 500px;
+        height: 75px;
         text-align: center;
+        font-size: 35px;
+        margin: auto;
+        padding: 50px;
+
     }
+
+    .prestoncard {
+        border:10px solid black;
+        width: 350px;
+        height: 400px;
+    }
+
+    .classprestonphoto img {
+        width: 100%;
+    }N
+ 
 
