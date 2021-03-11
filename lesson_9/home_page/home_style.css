@@ -1,5 +1,9 @@
 
 
+  div.content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 div.inside, footer{
     max-width: 1450px;
@@ -242,15 +246,19 @@ footer p.highlight {
       /***** BIG SCREEM ********/
  @media only screen and (min-width: 54.5em){
 
-
+    div.content{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
 
         h1.name {
             padding-left: 25%;
         }
     }
 
-    /*********************************** Home Page   *********************************/
+/*********************************** Home Page   *********************************/
 
+    /********************* Preston  ******************/
     h2.wireframe{
         width: 500px;
         height: 75px;
@@ -259,16 +267,56 @@ footer p.highlight {
         margin: auto;
         padding: 50px;
 
+
     }
 
     .prestoncard {
         border:10px solid black;
         width: 350px;
-        height: 400px;
+        height: 500px;
+        margin: 10px;
+        text-align: center;
+        background-color: #C2E2EB;
     }
 
     .classprestonphoto img {
         width: 100%;
-    }N
+        height: 200px;
+    }
+
+    /********************* Fish Heaven  ******************/
+
+    .fishcard {
+        border: 10px solid black;
+        width: 350px;
+        height: 500px;
+        margin: 10px;
+        text-align: center;
+        background-color: #C2E2EB;
+    }
+
+    .classfishphoto img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /********************* SODA SPRINGS  ******************/
+
+    .sodacard {
+        border: 10px solid black;
+        width: 350px;
+        height: 500px;
+        margin: 10px;
+        text-align: center;
+        background-color: #C2E2EB;
+    }
+    .classsodaphoto img {
+        width: 100%;
+        height: 200px;
+    }
+
+  
+
+    
  
 
