@@ -51,7 +51,6 @@ window.addEventListener('load', (event)=>{
 window.addEventListener('load', (event)=> {
     var d = new Date();
     var n = d.getDay();
-    var greet;
 
     if(n == 5)
         greet = 'Friday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.';

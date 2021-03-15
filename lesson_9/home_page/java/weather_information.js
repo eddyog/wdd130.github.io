@@ -14,6 +14,7 @@ fetch(requestURL)
 
     let prestoncard = document.createElement('section');
     prestoncard.classList.add('classprestontext');
+    prestoncard.classList.add('data');
 
     let prestonname = document.createElement('h2');
     let prestonmotto = document.createElement('h3');
@@ -39,6 +40,8 @@ fetch(requestURL)
     prestonphotosection.classList.add('classprestonphoto');
 
     let prestonphoto = document.createElement('img');
+    prestonphotosection.classList.add('picture')
+
     prestonphoto.setAttribute('src','images/'+ towns[5].photo);
     prestonphotosection.appendChild(prestonphoto);
     document.querySelector('div.prestoncard').appendChild(prestonphotosection);
@@ -48,6 +51,7 @@ fetch(requestURL)
 
     let sodacard = document.createElement('section');
     sodacard.classList.add('classsodatext');
+    sodacard.classList.add('data');
 
     let sodaname = document.createElement('h2');
     let sodamotto = document.createElement('h3');
@@ -73,6 +77,7 @@ fetch(requestURL)
     sodaphotosection.classList.add('classsodaphoto');
 
     let sodaphoto = document.createElement('img');
+    sodaphotosection.classList.add('picture')
     sodaphoto.setAttribute('src','images/soda.jpg');
     sodaphotosection.appendChild(sodaphoto);
     document.querySelector('div.sodacard').appendChild(sodaphotosection);
@@ -83,6 +88,7 @@ fetch(requestURL)
 
     let fishcard = document.createElement('section');
     fishcard.classList.add("classfishtext");
+    fishcard.classList.add('data');
 
     let fishname = document.createElement('h2');
     let fishmotto = document.createElement('h3');
@@ -108,6 +114,7 @@ fetch(requestURL)
     fishphotosection.classList.add('classfishphoto');
 
     let fishphoto = document.createElement("img");
+    fishphoto.classList.add('picture')
     fishphoto.setAttribute('src','images/fish.jpg');
     fishphotosection.appendChild(fishphoto);
     document.querySelector('div.fishcard').appendChild(fishphotosection);

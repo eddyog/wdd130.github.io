@@ -5,6 +5,10 @@
     grid-template-columns: 1fr;
 }
 
+div.main{
+    margin: auto;
+ }
+
 div.inside, footer{
     max-width: 1450px;
     margin: auto;
@@ -200,8 +204,10 @@ footer p.highlight {
 
 /*************************** Navigation Bar different sizes ***************************/
 
-/************ this is for a Medium screen *********/
-@media only screen and (min-width:34.5em) {
+
+/************ this is for a Medium screen and BIG for the menu *********/
+
+@media only screen  and (min-width:34.5em) {    
     nav {
         max-width: 100%;
     }
@@ -237,14 +243,49 @@ footer p.highlight {
 
     }
 
-
 }
 
-           /***** Meidum Screen **********/
+
+/******************** MEDIUM SCREE ****************** */
+    @media only screen and (max-width:54.5em) and (min-width:34.5em) {
 
 
-      /***** BIG SCREEM ********/
- @media only screen and (min-width: 54.5em){
+   div.main{
+       margin: auto;
+    }
+
+    div.prestoncard, div.fishcard, div.sodacard{
+        width: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    div.prestoncard{
+        grid-row: 1;
+    }
+
+    div.sodacard{
+        grid-row: 2;
+    }
+
+    div.fishcard{
+        grid-row: 3;
+    }
+
+    .classsodatext{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .classsodaphoto{
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+
+    /***** BIG SCREEM ********/
+    @media only screen and (min-width: 54.5em){
 
     div.content{
         display: grid;
@@ -254,7 +295,17 @@ footer p.highlight {
         h1.name {
             padding-left: 25%;
         }
-    }
+
+        .prestoncard, .sodacard, .fishcard {
+            width: 500px;
+            height: 450px;
+        }
+
+        
+}
+
+
+
 
 /*********************************** Home Page   *********************************/
 
@@ -270,10 +321,8 @@ footer p.highlight {
 
     }
 
-    .prestoncard {
-        border:10px solid black;
-        width: 350px;
-        height: 500px;
+    .prestoncard, .sodacard, .fishcard {
+        width: 360px;
         margin: 10px;
         text-align: center;
         background-color: #C2E2EB;
@@ -286,14 +335,7 @@ footer p.highlight {
 
     /********************* Fish Heaven  ******************/
 
-    .fishcard {
-        border: 10px solid black;
-        width: 350px;
-        height: 500px;
-        margin: 10px;
-        text-align: center;
-        background-color: #C2E2EB;
-    }
+
 
     .classfishphoto img {
         width: 100%;
@@ -302,14 +344,6 @@ footer p.highlight {
 
     /********************* SODA SPRINGS  ******************/
 
-    .sodacard {
-        border: 10px solid black;
-        width: 350px;
-        height: 500px;
-        margin: 10px;
-        text-align: center;
-        background-color: #C2E2EB;
-    }
     .classsodaphoto img {
         width: 100%;
         height: 200px;
