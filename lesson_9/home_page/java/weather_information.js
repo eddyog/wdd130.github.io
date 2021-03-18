@@ -22,11 +22,11 @@ fetch(requestURL)
     let prestonpopulation = document.createElement('p');
     let prestonrain = document.createElement('p');
 
-    prestonname.textContent = towns[5].name;
-    prestonmotto.textContent = towns[5].motto;
-    prestonyear.textContent = "It was founded in " + towns[5].yearFounded;
-    prestonpopulation.textContent = "The Population is " + towns[5].currentPopulation;
-    prestonrain.textContent = "Annual Rain fall: " + towns[5].averageRainfall;
+    prestonname.textContent = towns[6].name;
+    prestonmotto.textContent = towns[6].motto;
+    prestonyear.textContent = "It was founded in " + towns[6].yearFounded;
+    prestonpopulation.textContent = "The Population is " + towns[6].currentPopulation;
+    prestonrain.textContent = "Annual Rain fall: " + towns[6].averageRainfall;
 
     prestoncard.appendChild(prestonname);
     prestoncard.appendChild(prestonmotto);
@@ -42,7 +42,7 @@ fetch(requestURL)
     let prestonphoto = document.createElement('img');
     prestonphotosection.classList.add('picture')
 
-    prestonphoto.setAttribute('src','images/'+ towns[5].photo);
+    prestonphoto.setAttribute('src','images/preston.jpg');
     prestonphotosection.appendChild(prestonphoto);
     document.querySelector('div.prestoncard').appendChild(prestonphotosection);
 
@@ -59,11 +59,11 @@ fetch(requestURL)
     let sodapopulation = document.createElement('p');
     let sodarain = document.createElement('p');
 
-    sodaname.textContent = towns[6].name;
-    sodamotto.textContent = towns[6].motto;
-    sodayear.textContent = "It was founded in " + towns[6].yearFounded;
-    sodapopulation.textContent = "The population is " + towns[6].currentPopulation;
-    sodarain.textContent = "Annual Rain fall: " + towns[6].averageRainfall;
+    sodaname.textContent = towns[0].name;
+    sodamotto.textContent = towns[0].motto;
+    sodayear.textContent = "It was founded in " + towns[0].yearFounded;
+    sodapopulation.textContent = "The population is " + towns[0].currentPopulation;
+    sodarain.textContent = "Annual Rain fall: " + towns[0].averageRainfall;
     
     sodacard.appendChild(sodaname);
     sodacard.appendChild(sodamotto);
@@ -96,11 +96,11 @@ fetch(requestURL)
     let fishpopulation = document.createElement('p');
     let fishrain = document.createElement('p');
 
-    fishname.textContent=  towns[1].name;
-    fishmotto.textContent = towns[1].motto;
-    fishyear.textContent = "It was founded in " + towns[1].yearFounded;
-    fishpopulation.textContent = "The population is " + towns[1].currentPopulation;
-    fishrain.textContent = "Annual Rain Fall: " + towns[1].averageRainfall;
+    fishname.textContent=  towns[2].name;
+    fishmotto.textContent = towns[2].motto;
+    fishyear.textContent = "It was founded in " + towns[2].yearFounded;
+    fishpopulation.textContent = "The population is " + towns[2].currentPopulation;
+    fishrain.textContent = "Annual Rain Fall: " + towns[2].averageRainfall;
 
     fishcard.appendChild(fishname);
     fishcard.appendChild(fishmotto);
