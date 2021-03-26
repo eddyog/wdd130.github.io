@@ -1,8 +1,7 @@
 
 window.addEventListener('load', () => {
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=5b80935c4ea5e0ea9c17310ade26c1ed&units=imperial";
-fetch(apiURL)
+fetch("http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=5b80935c4ea5e0ea9c17310ade26c1ed&units=imperial")
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
