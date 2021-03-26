@@ -16,7 +16,7 @@ fetch(apiURL)
   });
 
   
-fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a74c7e35f6bf8eabf46deae3c9db19c3&units=imperial")
+fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=5b80935c4ea5e0ea9c17310ade26c1ed&units=imperial")
 .then((response) => response.json())
 .then((jsObject) => {
 console.table(jsObject);
