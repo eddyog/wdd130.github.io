@@ -19,7 +19,6 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=5b80935
 .then((response) => response.json())
 .then((jsObject) => {
 console.table(jsObject);
-console.log(jsObject);  // for testing
 
 const weekday = new Array(7);
   weekday[0] = "Sun";
