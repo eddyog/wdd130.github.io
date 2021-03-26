@@ -8,7 +8,8 @@
     <!-- Normatization -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="/Lesson-5-Preston-Town-Page/style.css">
-    <script src="/Lesson-5-Preston-Town-Page/java.js"></script>  
+    <script src="/Lesson-5-Preston-Town-Page/java.js"></script> 
+    <script src="preston_information.js"></script> 
     <!-- The links for the google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -47,11 +48,11 @@
                     <div class="summary-block"></div>
                     <h3>Weather Summary</h3>
 
-                    <p>Currently: <span class="yellow">Sunny</span> </p>
-                    <p>High: <span class="yellow">76 <sup>o</sup>F </span> </p>
-                    <p>Wind Chill: <span class="yellow">F</span></p>
-                    <p>Humidity: <span class="yellow">69% </span></p>
-                    <p>Wind Speed: <span class="yellow">5mph</span></p>
+                    <p>Currently: <span id="current"></span> </p>
+                    <p>High: <span id="temp"></span> </p>
+                    <p>Wind Chill: <span id="chill"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Wind Speed: <span id="speed"></span></p>
                     
                 </div>
 
@@ -61,16 +62,16 @@
 
                 <div class="information">
 
-                    <div class="day">
-                        <h2 class="day-title">5 day Forecast</h2>
-                        <div class="week-box">
-                            <div class="week-day-1"><p class="wed"> <span class="day-background">Wed</span>  <br> <img src="images/sunny.jpg" alt="logo" class="sunny"> <br> 89 <sup>0</sup> F</p></div>
-                            <div class="week-day-2"><p class="wed"> <span class="day-background">Thu</span>  <br> <img src="images/sunny.jpg" alt="logo" class="sunny"> <br> 89 <sup>0</sup> F</p></div>
-                            <div class="week-day-2"><p class="wed"> <span class="day-background">Fri  </span>  <br> <img src="images/sunny.jpg" alt="logo" class="sunny"> <br> 89 <sup>0</sup> F</p></div>
-                            <div class="week-day-2"><p class="wed"> <span class="day-background">Sat  </span>  <br> <img src="images/sunny.jpg" alt="logo" class="sunny"> <br> 89 <sup>0</sup> F</p></div>
-                            <div class="week-day-2"><p class="wed"> <span class="day-background">Sun</span>  <br> <img src="images/sunny.jpg" alt="logo" class="sunny"> <br> 89 <sup>0</sup> F</p></div>
-                        </div>
-                    </div>
+
+                    <h2 id="fiveDayheadline">5 Day Forecast</h2>
+                    <ul class="fiveDay">
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                      <li class='fiveForecast'><h3></h3><img><p></p></li>
+                    </ul>
+                                
                     <div class="article">
                         <div class="article-information">
                             <h2 class="article-title">What the beach does to your brain</h2>

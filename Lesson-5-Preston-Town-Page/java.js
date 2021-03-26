@@ -29,13 +29,7 @@ window.addEventListener('load', (event)=>{
     var myDate = new Date();
     var hrs = myDate.getHours();
     // Get DayOfWeek from int value
-
-
-
-
     var greet;
-
-
     if (hrs < 12)
         greet = 'Good Morning ';
     else if (hrs >= 12 && hrs <= 17)
@@ -51,7 +45,8 @@ window.addEventListener('load', (event)=>{
 
 window.addEventListener('load', (event)=> {
     var d = new Date();
-    var n = d.getDay()
+    var n = d.getDay();
+    var greet = '';
 
     if(n == 5)
         greet = 'Friday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.'

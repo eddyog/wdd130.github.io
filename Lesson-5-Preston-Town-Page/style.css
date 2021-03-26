@@ -459,6 +459,36 @@ img.snapchat{
 }
 
 
+/*********************  5 day forecast info **********************/
+
+ul {
+    list-style-type: none;
+}
+
+ul.fiveDay{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    padding-right: 10px;
+    padding-left: 10px;
     
+}
 
+li.fiveForecast{
+    border: solid black;
+    
+}
 
+.fiveForecast h3, .fiveForecast p{
+    margin: 0;
+    height: 35px;
+    font-size: 23px;
+    background-color: #99DADE;
+}
+
+.fiveForecast img{
+    width: 80px;
+}
+
+.fiveForecast p{
+    background-color: #f9ab62;
+}
