@@ -1,0 +1,263 @@
+body {
+  background-color: #34ccaa;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+section.summary {
+  background-color: #f5f5f6;
+}
+
+section {
+  max-width: 565px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+section .progress {
+  background-color: blue;
+}
+
+.progress {
+  display: -ms-grid;
+  display: grid;
+  list-style: none;
+  -ms-grid-columns: auto 2fr auto 2fr auto;
+      grid-template-columns: auto 2fr auto 2fr auto;
+  text-align: center;
+  font-size: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.progress hr {
+  border-color: white;
+  border-style: solid;
+  border: solid white;
+}
+
+.progress li.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  color: blue;
+  font-size: 15px;
+  background-color: white;
+}
+
+.progress li.circle_uncheck {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  border: solid white;
+}
+
+.progress-labels {
+  background-color: blue;
+  display: -ms-grid;
+  display: grid;
+  list-style: none;
+  color: white;
+  display: grid;
+  -ms-grid-columns: auto 2fr auto 2fr auto;
+      grid-template-columns: auto 2fr auto 2fr auto;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 25px;
+}
+
+.progress-labels li.shipping {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  text-align: center;
+}
+
+.progress-labels li.details {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  text-align: center;
+}
+
+.progress-labels li.checkout {
+  -ms-grid-column: 5;
+  grid-column: 5;
+}
+
+div.summary {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto 1fr auto 1fr;
+      grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 20px;
+}
+
+div.summary h2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  text-align: center;
+  margin: 50px;
+  margin-top: 70px;
+  font-size: 40px;
+}
+
+div.summary h3 {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  text-align: right;
+  color: gray;
+}
+
+div.summary p {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  text-align: left;
+}
+
+div.summary #total {
+  color: blue;
+}
+
+div.summary a {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  margin-bottom: 50px;
+}
+
+div.summary hr {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 10px;
+  margin-top: 9px;
+}
+
+div.summary p.line {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  background-color: gray;
+  height: 1px;
+}
+
+.payment_details {
+  background-color: white;
+  padding-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto auto auto 1fr;
+      grid-template-columns: 1fr auto auto auto 1fr;
+  gap: 30px;
+}
+
+.payment_details img {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  grid-row: 0;
+}
+
+.payment_details h1 {
+  font-size: 30px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  padding-left: 50px;
+}
+
+.payment_details .name {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  padding-left: 50px;
+}
+
+.payment_details .number {
+  margin-top: 20px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  padding-left: 50px;
+}
+
+.payment_details .expiration {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  padding-left: 25px;
+}
+
+.payment_details .address {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 6;
+  grid-row: 6;
+  padding-left: 50px;
+}
+
+.payment_details .buttons {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 7;
+  grid-row: 7;
+  padding-left: 50px;
+}
+
+.payment_details .next {
+  height: 41px;
+  width: 148px;
+  margin-right: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2c65e1;
+  border-radius: 50px;
+  border: none;
+}
+
+.payment_details .cancel {
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #2c65e1;
+}
+
+.payment_details .buttons {
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+  div.content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 565px 565px;
+        grid-template-columns: 565px 565px;
+  }
+  div.content .summary {
+    margin-right: 0;
+  }
+  div.content .payment_details {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
