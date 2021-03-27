@@ -155,7 +155,7 @@ div.summary{
     }
 
     h1{
-        font-size: 30px;
+        font-size: 40px;
         grid-column: 2/5;
         grid-row: 2;
         padding-left: 50px;
@@ -203,6 +203,10 @@ div.summary{
     border:none
 }
 
+.next:hover{
+    background-color: #34ccaa;
+}
+
 .cancel {
     background: none;
     border: none;
@@ -214,6 +218,9 @@ div.summary{
     padding-bottom: 30px;
 }
 
+label{
+    color: gray;
+}
 
 }
 

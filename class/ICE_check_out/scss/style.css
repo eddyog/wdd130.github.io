@@ -168,7 +168,7 @@ div.summary p.line {
 }
 
 .payment_details h1 {
-  font-size: 30px;
+  font-size: 40px;
   -ms-grid-column: 2;
   -ms-grid-column-span: 3;
   grid-column: 2/5;
@@ -234,6 +234,10 @@ div.summary p.line {
   border: none;
 }
 
+.payment_details .next:hover {
+  background-color: #34ccaa;
+}
+
 .payment_details .cancel {
   background: none;
   border: none;
@@ -243,6 +247,10 @@ div.summary p.line {
 
 .payment_details .buttons {
   padding-bottom: 30px;
+}
+
+.payment_details label {
+  color: gray;
 }
 
 @media only screen and (min-width: 800px) {
