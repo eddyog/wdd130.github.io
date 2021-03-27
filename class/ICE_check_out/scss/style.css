@@ -187,7 +187,6 @@ div.summary p.line {
 }
 
 .payment_details .number {
-  margin-top: 20px;
   -ms-grid-column: 2;
   -ms-grid-column-span: 3;
   grid-column: 2/5;
