@@ -129,7 +129,7 @@ nav{
     display: block;
 }
 
-li.preston{
+li.soda{
     background-color: #f9ab62;
 }
 
@@ -491,4 +491,12 @@ li.fiveForecast{
 
 .fiveForecast p{
     background-color: #f9ab62;
+}
+
+/*************************** EVENTS  ****************************/
+
+#events{
+    width: 300px;
+    border: 10px solid #99DADE;
+    margin: 0 auto;
 }

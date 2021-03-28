@@ -9,9 +9,11 @@ div.main{
     margin: auto;
  }
 
-div.inside, footer{
-    max-width: 1450px;
+
+  div.inside, footer{
+    max-width: 1250px;
     margin: auto;
+  
   }
 
 body{

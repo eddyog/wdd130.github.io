@@ -10,9 +10,8 @@ div.inside, footer{
   }
 
 body{
-    background: rgb(249,171,98);
-    background: linear-gradient(0deg, rgba(249,171,98,1) 17%, rgba(249,171,98,1) 46%, rgba(46,171,203,1) 82%, rgba(193,244,251,1) 99%);
-
+    background: rgb(9,101,156);
+    background: linear-gradient(0deg, rgba(9,101,156,1) 3%, rgba(46,171,203,1) 75%, rgba(193,244,251,1) 99%);
 }
 
 div.content{
@@ -129,7 +128,7 @@ nav{
     display: block;
 }
 
-li.preston{
+li.fish{
     background-color: #f9ab62;
 }
 
@@ -311,7 +310,7 @@ footer a:hover{
 footer {
     clear: both;
     text-align: center;
-    background-color: #f9ab62;
+    background-color: blanchedalmond;
 }
 
 footer p.legal{
@@ -491,4 +490,13 @@ li.fiveForecast{
 
 .fiveForecast p{
     background-color: #f9ab62;
+}
+
+
+/*************************** EVENTS  ****************************/
+
+#events{
+    width: 300px;
+    border: 10px solid #99DADE;
+    margin: 0 auto;
 }
