@@ -1,19 +1,22 @@
 
 window.addEventListener('load', () => {
 
-    fetch("https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=5b80935c4ea5e0ea9c17310ade26c1ed&units=imperial")
-      .then((response) => response.json())
-      .then((jsObject) => {
-        console.log(jsObject);
-        document.getElementById('speed').textContent = jsObject.wind.speed + " mph";
-        document.getElementById('humidity').textContent = jsObject.main.humidity + "%";
-        document.getElementById('current').textContent = jsObject.weather[0].main;
-        document.getElementById('temp').textContent = jsObject.main.temp + " *F";
-        document.getElementById('chill').textContent = jsObject.wind.deg;
-        
+  const url = "https://api.openweathermap.org/data/2.5/weather?id=5596475&units=imperial&appid=5b80935c4ea5e0ea9c17310ade26c1ed";
     
-      });
-    
+  fetch(url)
+  .then(response => response.json())
+  .then(jsonObject => {
+  
+      document.getElementById("current").innerHTML = jsonObject.weather[0].description;
+      document.getElementById("temp").innerHTML = Math.ceil(jsonObject.main.temp_min);
+      document.getElementById("speed").innerHTML = jsonObject.wind.speed;
+      document.getElementById("humidity").innerHTML = jsonObject.main.humidity; 
+      let temp = document.getElementById('temp').innerHTML;
+      let speed = document.getElementById('speed').innerHTML;
+      let wind_chill = Math.round(35.74 + (0.6215 * temp) - (35.75 * (speed) ** 0.16) + (0.4275 * temp * ((speed)**0.16))) + "℉";
+      document.getElementById("chill").innerHTML = wind_chill;
+      
+  })
       
     fetch("https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=5b80935c4ea5e0ea9c17310ade26c1ed&units=imperial")
     .then((response) => response.json())
