@@ -5,9 +5,6 @@
     grid-template-columns: 1fr;
 }
 
-div.main{
-    margin: auto;
- }
 
 
   div.inside, footer{
@@ -96,19 +93,14 @@ figure {
   div.name{
     display: flex;
     margin: 1em;
-    grid-row: 2/2;
-    grid-column: 1/3;
     text-align: center;
-    border: 20px solid #f9ab62;
-    margin: 0;
+    border: 20px solid #f9ab62;;
     background-color: #F7EBDE;
 
 }
 
 h1.name{
-    align-self: center;
-    text-align: center;
-    padding-left: 22%;
+
     color: black;
     font-size: 50px;
 }
@@ -207,6 +199,25 @@ footer p.highlight {
 /*************************** Navigation Bar different sizes ***************************/
 
 
+@media only screen and (max-width:34.5em){
+
+    div.main h2{
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .wireframe{
+        padding-left: 0;
+        margin-left: 0;
+        border-left: 0;
+        text-align: center;
+
+    }
+
+
+}
+
+
 /************ this is for a Medium screen and BIG for the menu *********/
 
 @media only screen  and (min-width:34.5em) {    
@@ -244,6 +255,12 @@ footer p.highlight {
         font-size: 50px;
 
     }
+
+    h1.name {
+        padding-left: 25%;
+    }
+
+    
 
 }
 
@@ -294,14 +311,15 @@ footer p.highlight {
         grid-template-columns: repeat(3, auto);
     }
 
-        h1.name {
-            padding-left: 25%;
-        }
 
         .prestoncard, .sodacard, .fishcard {
             width: 500px;
             height: 450px;
         }
+
+    h2.wireframe{
+        text-align: center;
+    }
 
         
 }
@@ -313,12 +331,11 @@ footer p.highlight {
 
     /********************* Preston  ******************/
     h2.wireframe{
-        width: 500px;
+        width: 100%;
         height: 75px;
-        text-align: center;
         font-size: 35px;
         margin: auto;
-        padding: 50px;
+        padding-top: 50px;
 
 
     }

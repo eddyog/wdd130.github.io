@@ -133,121 +133,6 @@ li.preston{
 }
 
 
-
-/*************************** Navigation Bar different sizes ***************************/
-
-
-@media only screen and (min-width:34.5em) {
-    nav {
-        max-width: 100%;
-    }
-    #navigation {
-        grid-template-columns: repeat(7,auto);
-    }
-    #navigation li{
-        display: block;
-    }
-
-    #navigation a:link, 
-    #navigation a:visited, 
-    #navigation a:hover, 
-    #navigation a:active,
-    #navigation a:focus{
-        text-align: center;
-    }
-
-    #navigation li:first-chlid{
-        display: none;
-    }
-
-
-}
-
-@media only screen and (min-width:54.5em){
-    #navigation{
-        width: 800px;
-        margin: 16px auto;
-    }
-
-    
-}
-
-@media only screen and (max-width:34.5em){
-    div.day{
-        display: none;
-    }
-
-    h1.name{
-        align-self: center;
-        padding-left: 5%;
-        color: black;
-        font-size: 50px;
-    }
-
-    div.article{
-        border: 10px solid #99DADE;
-        margin: 1em;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
-        text-align: center;
-
-    }
-    img.boys{
-        width: 300px;
-        height: 300px;
-        grid-column: 1;
-        padding-bottom: 0;
-    }
-    
-    div.boys{
-        grid-row: 1/2;
-        grid-column: 1;
-        width: 400px;
-        padding-bottom: 0;
-
-    }
-    
-    div.article-information{
-
-        font-size: 21px;
-        grid-row: 2;
-        grid-column: 1/1;
-        width: 350px;
-
-    }
-
-
-    div.contact{
-        text-align: center;
-        border: 10px solid #99DADE;
-        margin: 1em;
-        font-size: 20px;
-        line-height: 10px;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto;
-  
-    }
-
-    div.map{
-        grid-row: 2/2;
-        padding-left: 40px;
-    }
-    
-    div.contact-information{
-        grid-row: 1/1;
-        align-self: center;
-        padding-left: 50px;
-        padding-bottom: 30px;
-    }
-    
-
-    
-
-}
-
-
   /*************************** MAIN ***************************/
 
 
@@ -285,10 +170,6 @@ li.preston{
         grid-column: 1/3;
         text-align: center;
     }
-
-
-
-
 
     img.logo_main{
         width: 80%;
@@ -346,6 +227,8 @@ span.yellow{
 
 /*************************** 5 DAY FORECAST ***************************/
 
+
+
 div.day{
     border: 10px solid #99DADE;
     margin: 1em;
@@ -391,17 +274,21 @@ div.article{
 img.boys{
     width: 400px;
     height: 400px;
+    padding-left: 0;
+    margin-left: 0;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
 div.boys{
     text-align: center;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 div.article-information{
     grid-column: 1/1;
-    padding-left: 50px;
+    padding-left: 5%;
     font-size: 21px;
 }
 
@@ -411,7 +298,7 @@ div.contact{
     text-align: center;
     border: 10px solid #99DADE;
     margin: 1em;
-    padding: 10px;
+    padding: 5%;
     font-size: 20px;
     line-height: 10px;
     display: grid;
@@ -499,4 +386,142 @@ li.fiveForecast{
     width: 300px;
     border: 10px solid #99DADE;
     margin: 0 auto;
+}
+
+
+
+
+
+
+/*************************** Navigation Bar different sizes ***************************/
+
+
+@media only screen and (min-width:34.5em) {
+    nav {
+        max-width: 100%;
+    }
+    #navigation {
+        grid-template-columns: repeat(7,auto);
+    }
+    #navigation li{
+        display: block;
+    }
+
+    #navigation a:link, 
+    #navigation a:visited, 
+    #navigation a:hover, 
+    #navigation a:active,
+    #navigation a:focus{
+        text-align: center;
+    }
+
+    #navigation li:first-chlid{
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (min-width:54.5em){
+    #navigation{
+        width: 800px;
+        margin: 16px auto;
+    }
+
+    
+}
+
+@media only screen and (max-width:34.5em){
+    div.day{
+        display: none;
+    }
+
+    h1.name{
+        align-self: center;
+        padding-left: 5%;
+        color: black;
+        font-size: 50px;
+    }
+
+    div.article{
+        border: 10px solid #99DADE;
+        margin: 1em;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+
+    }
+    img.boys{
+        width: 300px;
+        height: 300px;
+        grid-column: 1;
+        padding-bottom: 0;
+    }
+    
+    div.boys{
+        grid-row: 1/2;
+        grid-column: 1;
+        width: 400px;
+        padding-bottom: 0;
+
+    }
+    
+    div.article-information{
+
+        font-size: 21px;
+        grid-row: 2;
+        grid-column: 1/1;
+        width: 350px;
+
+    }
+
+
+    div.contact{
+        text-align: center;
+        border: 10px solid #99DADE;
+        margin: 1em;
+        font-size: 20px;
+        line-height: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+  
+    }
+
+    div.map{
+        grid-row: 2/2;
+    }
+    
+    div.contact-information{
+        grid-row: 1/1;
+        align-self: center;
+        padding-bottom: 30px;
+    }
+    
+
+    .fiveForecast h3, .fiveForecast p{
+        font-size: 18px;
+    }
+
+    .fiveForecast img{
+        width: 50px;
+    }
+    .article-paragraph{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .article-information p, .article-information h2{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact{
+        padding-left: 0;
+        margin-left: 0;
+
+    }
 }
