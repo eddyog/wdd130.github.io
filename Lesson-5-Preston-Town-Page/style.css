@@ -525,3 +525,14 @@ li.fiveForecast{
 
     }
 }
+
+/******************** MEDIUM SCREE ****************** */
+@media only screen and (max-width:54.5em) and (min-width:34.5em) {
+
+
+    div.article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ }
+ 

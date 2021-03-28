@@ -135,38 +135,6 @@ li.soda{
 
 
 
-/*************************** Navigation Bar different sizes ***************************/
-
-
-@media only screen and (min-width:34.5em) {
-    nav {
-        max-width: 100%;
-    }
-    #navigation {
-        grid-template-columns: repeat(7,auto);
-    }
-    #navigation li{
-        display: block;
-    }
-
-    #navigation a:link, 
-    #navigation a:visited, 
-    #navigation a:hover, 
-    #navigation a:active,
-    #navigation a:focus{
-        text-align: center;
-    }
-
-    #navigation li:first-chlid{
-        display: none;
-    }
-
-
-}
-
-
-
-
   /*************************** MAIN ***************************/
 
 
@@ -420,6 +388,41 @@ li.fiveForecast{
 }
 
 
+
+/*************************** Navigation Bar different sizes ***************************/
+
+
+@media only screen and (min-width:34.5em) {
+    nav {
+        max-width: 100%;
+    }
+    #navigation {
+        grid-template-columns: repeat(7,auto);
+    }
+    #navigation li{
+        display: block;
+    }
+
+    #navigation a:link, 
+    #navigation a:visited, 
+    #navigation a:hover, 
+    #navigation a:active,
+    #navigation a:focus{
+        text-align: center;
+    }
+
+    #navigation li:first-chlid{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
 @media only screen and (min-width:54.5em){
     #navigation{
         width: 800px;
@@ -526,3 +529,15 @@ li.fiveForecast{
 
     }
 }
+
+
+/******************** MEDIUM SCREE ****************** */
+@media only screen and (max-width:54.5em) and (min-width:34.5em) {
+
+
+    div.article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ }
+ 
