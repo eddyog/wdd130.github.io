@@ -17,8 +17,8 @@
   
       {
         "featured": "No",
-        "imageSrc": "https://kaqurei.github.io/assignments/term-project/images/salt-lake-temple-large.jpg",
-        "imageSrcSmall": "https://kaqurei.github.io/assignments/term-project/images/salt-lake-temple-small.jpg",
+        "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/costa-rica.jpg",
+        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/costa-rica.jpg",
         "imageAlt": "A view of the Costa Rica Temple",
         "name": "Costa Rica, Heredia",
         "description": "The San José Costa Rica Temple is the 87th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church).The church's First Presidency announced on March 17, 1999 that a temple would be built in San José, Costa Rica. The announcement of the San José Costa Rica Temple made it the first temple in Costa Rica and the second temple in Central America",
@@ -34,34 +34,34 @@
   
       {
         "featured": "No",
-        "imageSrc": "https://kaqurei.github.io/assignments/term-project/images/draper-temple-large.jpg",
-        "imageSrcSmall": "https://kaqurei.github.io/assignments/term-project/images/draper-temple-small.jpg",
+        "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/guatemala.jpg",
+        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/guatemala.jpg",
         "imageAlt": "A view of the Draper Temple",
-        "name": "Draper",
-        "description": "The Draper Utah Temple was the twelfth temple built in Utah and the third built in the Salt Lake Valley, following the Salt Lake Temple and the Jordan River Temple. It was dedicated in March 2009 by Thomas S. Monson. During its two-month open house, 684,721 visitors toured the interior of the Draper Utah Temple, making it one of the most widely attended temple open houses in the Church.",
-        "phoneNumber": "(1) 801-576-4240",
-        "streetAddress": "14065 Canyon Vista Ln",
-        "cityState": "Draper UT",
-        "zip": "84020-5626",
+        "name": "Guatemala City",
+        "description": "The Guatemala City Guatemala Temple (formerly the Guatemala City Temple) is the 34th constructed and 32nd operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). Located in Guatemala City, capital city of Guatemala, it was built with a modern six-spire design. In 1956, while Harold B. Lee (then a member of the Quorum of the Twelve) visited Guatemala City, he felt that it would be a center for Lamanite gatherings and predicted that a temple would be built there.",
+        "phoneNumber": "(502) 2369-3426",
+        "streetAddress": "24 Avenida 2-20, Zona 15 Vista Hermosa 1",
+        "cityState": "Guatemala City, Guatemala",
+        "zip": "01004",
         "ordinanceSchedule": ["Baptisms: 6:00 AM - 8:15 PM (Walk-ins & Appointments)", "Initiatory: 7:00 AM - 8:15 PM (Walk-ins Only)", "Endowments: 2 - 5 PM (Walk-ins & Appointments)", "Sealings: 8:00 AM - 8:15 PM (Walk-ins & Appointments)"],
         "services": ["Rental Clothing: Unavailable", "Cafeteria: Unavailable", "Distribution Center Nearby: Yes"],
-        "closures": ["Thursday, 4 July 2019", "Wednesday, 24 July 2019", "Monday, 29 July 2019 - Monday, 12 August 2019", "Saturday, 5 October 2019", "Wednesday, 27 November 2019 (Limited Hours)", "Thursday, 28 November 2019", "Tuesday, 24 December 2019", "Wednesday, 25 December 2019", "Tuesday, 31 December 2019"]
+        "closures": ["Saturday, 1 May 2021 (Limited Operations)", "Monday, 5 July 2021 - Monday, 19 July 2021", "Wednesday, 15 September 2021 (Limited Operations)","Saturday, 2 October 2021 - Sunday, 3 October 2021","Monday, 1 November 2021 (Limited Operations)","Friday, 24 December 2021 - Saturday, 25 December 2021","Friday, 31 December 2021 - Saturday, 1 January 2022"]
       },
   
       {
         "featured": "No",
-        "imageSrc": "https://kaqurei.github.io/assignments/term-project/images/tooele-valley-temple-large.jpg",
-        "imageSrcSmall": "https://kaqurei.github.io/assignments/term-project/images/tooele-valley-temple-small.jpg",
+        "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/panama.jpg",
+        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/panama.jpg",
         "imageAlt": "Temple Image coming soon",
         "name": "Tooele Valley",
         "description": "The Tooele Valley Temple was announced in the Sunday afternoon session of General Conference, April 2019, by President Russel M Nelson. Details forthcoming.",
         "phoneNumber": "TBA",
-        "streetAddress": "TBA",
-        "cityState": "TBA",
-        "zip": "TBA",
-        "ordinanceSchedule": ["Baptisms: TBA", "Initatory: TBA", "Endowments: TBA", "Sealings: TBA"],
-        "services": ["Rental Clothing: TBA", "Cafeteria: TBA", "Distribution Center Nearby: TBA"],
-        "closures": ["TBA"]
+        "streetAddress": "Calle Rufina Alfaro #3172 Hacia La Villa de Cardenas",
+        "cityState": "Corozal, Ancon, Provincia de Panamá, Panama, ",
+        "zip": "83440",
+        "ordinanceSchedule": ["PHASE 2: TEMPLE OPEN FOR LIVING ORDINANCES ONLY—Based on First Presidency direction, this temple has resumed limited operations. At this time, only living ordinances are being performed. Ordinances will be performed by appointment only and limited to members residing in a designated geographic area"],
+        "services": ["Rental Clothing: Closed", "Cafeteria: Closed", "Distribution Center Nearby: Closed"],
+        "closures": ["Monday, 16 August 2021", "Monday, 30 August 2021"]
       }
   
     ]
