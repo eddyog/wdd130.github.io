@@ -2,7 +2,7 @@
     "temples": [{
         "featured": "Yes",
         "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/xela.jpg",
-        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/xela.jpg",
+        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/xela-small.jpg",
         "imageAlt": "A view of the Quetzaltenango Guatemala Temple",
         "name": "Quetzaltenango Guatemala",
         "description": "The Quetzaltenango Guatemala Temple is the second temple built by The Church of Jesus Christ of Latter-day Saints (LDS Church) in Guatemala. It was the fifth temple of the church in Central America. The temple is located in the western part of the city, near the Parque Zoológico Minerva. Construction of the temple was announced by church president Gordon B. Hinckley on December 16, 2006. Construction commenced following a groundbreaking ceremony on March 14, 2009. The temple open house was held from November 11–26, 2011. The temple was dedicated on December 11, 2011 by Dieter F. Uchtdorf of the church's First Presidency and was the first temple dedicated by Uchtdorf.",
@@ -18,7 +18,7 @@
       {
         "featured": "No",
         "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/costa-rica.jpg",
-        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/costa-rica.jpg",
+        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/costa-rica-small.jpg",
         "imageAlt": "A view of the Costa Rica Temple",
         "name": "Costa Rica, Heredia",
         "description": "The San José Costa Rica Temple is the 87th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church).The church's First Presidency announced on March 17, 1999 that a temple would be built in San José, Costa Rica. The announcement of the San José Costa Rica Temple made it the first temple in Costa Rica and the second temple in Central America",
@@ -35,7 +35,7 @@
       {
         "featured": "No",
         "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/guatemala.jpg",
-        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/guatemala.jpg",
+        "imageSrcSmall": "",
         "imageAlt": "A view of the Draper Temple",
         "name": "Guatemala City",
         "description": "The Guatemala City Guatemala Temple (formerly the Guatemala City Temple) is the 34th constructed and 32nd operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). Located in Guatemala City, capital city of Guatemala, it was built with a modern six-spire design. In 1956, while Harold B. Lee (then a member of the Quorum of the Twelve) visited Guatemala City, he felt that it would be a center for Lamanite gatherings and predicted that a temple would be built there.",
@@ -51,7 +51,7 @@
       {
         "featured": "No",
         "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/panama.jpg",
-        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/panama.jpg",
+        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/Panama-small.jpg",
         "imageAlt": "Temple Image coming soon",
         "name": "Tooele Valley",
         "description": "The Tooele Valley Temple was announced in the Sunday afternoon session of General Conference, April 2019, by President Russel M Nelson. Details forthcoming.",
