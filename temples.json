@@ -19,16 +19,16 @@
         "featured": "No",
         "imageSrc": "https://kaqurei.github.io/assignments/term-project/images/salt-lake-temple-large.jpg",
         "imageSrcSmall": "https://kaqurei.github.io/assignments/term-project/images/salt-lake-temple-small.jpg",
-        "imageAlt": "A view of the Salt Lake Temple",
-        "name": "Salt Lake",
-        "description": "The Salt Lake City Utah Temple took 40 years to build, with its highly ornate interior being completed in just a year. It was the only temple dedicated by President Wilford Woodruff, in April 1893. Positioned on Salt Lake City's center block, known as Temple Square, the spires of the Salt Lake Temple rise amid downtown high-rises and super malls. Every holiday season, Temple Square is transformed into a highly popular display of hundreds of thousands of Christmas lights. In General Conference April 2019, President Russel M Nelson announced that the Salt Lake Temple will be closing for extensive renovations.",
-        "phoneNumber": "(1) 801-240-2640",
-        "streetAddress": "50 W North Temple St",
-        "cityState": "Salt Lake City UT",
-        "zip": "84150-9709",
+        "imageAlt": "A view of the Costa Rica Temple",
+        "name": "Costa Rica, Heredia",
+        "description": "The San José Costa Rica Temple is the 87th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church).The church's First Presidency announced on March 17, 1999 that a temple would be built in San José, Costa Rica. The announcement of the San José Costa Rica Temple made it the first temple in Costa Rica and the second temple in Central America",
+        "phoneNumber": "(506) 2293-6681",
+        "streetAddress": "1.2 km al Oeste Del Hotel Marriott",
+        "cityState": "Heredia, Belen",
+        "zip": "40702",
         "ordinanceSchedule": ["Baptisms: 5:00 AM - 8:00 PM (Walk-ins & Appointments)", "Initiatory: 6:00 AM - 8:00 PM (Walk-ins Only)", "Endowments: 1 PM (Walk-ins & Appointments), 3 - 4 PM (Walk-ins Only)", "Sealings: 7:00 AM - 8:00 PM (Walk-ins & Appointments)"],
         "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: Yes"],
-        "closures": ["Tuesday, 2 July 2019 - Monday, 15 July 2019", "Wednesday, 24 July 2019", "Saturday, 5 October 2019", "Wednesday, 27 November 2019 (Limited Hours)", "Thursday, 28 November 2019 - Friday, 29 November 2019", "Tuesday, 24 December 2019 - Wednesday, 25 December 2019", "Tuesday, 31 December 2019"]
+        "closures": ["Monday, 2 August 2021" , "Monday, 22 November 2021"]
       },
   
   
