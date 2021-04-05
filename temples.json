@@ -1,8 +1,8 @@
 {
     "temples": [{
         "featured": "Yes",
-        "imageSrc": "https://github.com/eddyog/temple_suites/blob/master/images/xela-temple.jpg",
-        "imageSrcSmall": "https://github.com/eddyog/temple_suites/blob/master/images/xela-temple.jpg",
+        "imageSrc": "https://eddyog.github.io/lesson_7_lazy_load/images/xela.jpg",
+        "imageSrcSmall": "https://eddyog.github.io/lesson_7_lazy_load/images/xela.jpg",
         "imageAlt": "A view of the Quetzaltenango Guatemala Temple",
         "name": "Quetzaltenango Guatemala",
         "description": "The Quetzaltenango Guatemala Temple is the second temple built by The Church of Jesus Christ of Latter-day Saints (LDS Church) in Guatemala. It was the fifth temple of the church in Central America. The temple is located in the western part of the city, near the Parque Zoológico Minerva. Construction of the temple was announced by church president Gordon B. Hinckley on December 16, 2006. Construction commenced following a groundbreaking ceremony on March 14, 2009. The temple open house was held from November 11–26, 2011. The temple was dedicated on December 11, 2011 by Dieter F. Uchtdorf of the church's First Presidency and was the first temple dedicated by Uchtdorf.",
