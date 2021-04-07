@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites | Home</title>
+    <meta name="description" content="Home of Temple Inn & Suites">
+
+    <link rel="stylesheet" href="style/home_small.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style/home_medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="style/home_large.css">
+
+</head>
+
+<body>
+    <picture class="banner">
+        <source srcset="images/banner.jpg" media="(max-width: 600px)">
+        <img class="banner" src="images/banner.jpg" alt="A peaceful bench in the Inn Gardens">
+    </picture>
+    <header>
+        <h1>Temple Inn & Suites</h1>
+    </header>
+
+    <nav>
+        <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+            <li id="current-page"><a href="#">Home</a></li>
+            <li><a href="/temples/temples-main/temples-main.html">Temples</a></li>
+            <li><a href="/guest-portal/guest.html">Guest Portal</a></li>
+            <li><a href="/reservation/reservation.html">Book Reservation</a></li>
+        </ul>
+    </nav>
+    <main class="fade">
+        <section>
+            <div class="welcome-wrap">
+                <img id="welcome-image" src="images/hotel.jpg" alt="A view of the Temple from the hotel front.">
+                <div class="text-wrap">
+                    <h2>Welcome to Temple Inn & Suites</h2>
+                    <p>President Gordon B Hinkley said of Temples, “This is a place of light, a place of peace, a place of
+                        love, where we deal with the things of eternity.” And certainly, his words cannot be denied. All people who
+                        have ever visited the Temple can testify of the sweet spirit and peace that they feel there. Yet,
+                        many have to travel great distances to come and partake in the spirit of this great work.
+                    </p>
+                    <p>
+                        Our vision at Temple Inn and Suites is to make your stay as comfortable and stress free as
+                        possible--whether you come for a few days to participate in a family members'
+                        wedding, or many months and even years as you serve as a Temple Worker. We are conveniently
+                        located just outside Temple grounds in select locations to make your commute as short as possible. 
+                        Please visit our guest portal to learn more about accomodations and services at a Temple Inn near you.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <div class="quote">&ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you
+                    rest...&rdquo; - Matthew 11:28</div>
+            </div>
+            <div class="parallax parallax1">
+                <form action="reservation.html"><button>Book Now</button></form>
+            </div>
+        </div>
+
+        <section>
+            <h2>Featured Temple</h2>
+            <div class="featured-wrap">
+                <picture id="featuredImage">
+                    <source srcset="x.jpg" media="(max-width: 600px)">
+                    <img class="temple" src="x" class="featured"
+                        alt="If this image is displayed the featured JSON data failed to load.">
+                </picture>
+                <h3 id="featuredTitle">Failed script</h3>
+                <p id="featuredDescription">Failed script</p>
+                <form action="/temples/temples-main/temples-main.html"><button>More Temples</button></form>
+            </div>
+        </section>
+
+        <div class="spotlight">
+            <span class="prev" onclick="plusSlides(-1)">&#9664;</span> <span class="next"
+                onclick="plusSlides(1)">&#9654;</span>
+
+            <div class="spotlight-head">
+                <h2>Featured Services</h2>
+            </div>
+
+            <div class="mySlides fade">
+                <picture class="spot">
+                    <source srcset="images/history.jpg" media="(max-width: 600px)">
+                    <img class="spot" src="images/history.jpg"
+                        alt="A sister missionary helps woman to find geneology information in the computer lab">
+                </picture>
+                <p>Our Family History Research lab provides guests with computers, free wifi, and family history
+                    consultants on site. Available as a special service for all guests.</p>
+                    <form action="/guest-portal/guest.html"><button>Learn More</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture class="spot">
+                    <source srcset="images/breakfast.jpg" media="(max-width: 600px)">
+                    <img class="spot" src="images/breakfast.jpg" alt="A traditionial breakfast from Guatemala">
+                </picture>
+                <p> A traditional Free breakfast services are included with every room and suite. We have a wide range of healthy
+                    breakfast options available. Let your Temple Inn & Suites
+                    representative know if you or anyone in your party have any dietary restrictions so that we can
+                    accommodate you.</p>
+                    <form action="/guest-portal/guest.html"><button>Learn More</button></form>
+            </div>
+
+            <div class="mySlides fade">
+                <picture class="spot">
+                    <source srcset="images/pool.jpg" media="(max-width: 600px)">
+                    <img class="spot" src="images/pool.jpg" alt="A line of fresh clean laundry">
+                </picture>
+                <p>We also have an outdoor pool that we are sure you will enjoy. Guatemala has a tropical weather
+                    that is perfect. You will be able to enjoy your time in Temple Inn & suites with our amazing pool
+                </p>
+                    <form action="/guest-portal/guest.html"><button>Learn More</button></form>
+            </div>
+        </div>
+        <br>
+        <div class="dotbox">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section>
+            <div class="testimonials-wrap">
+                <h2>Testimonials</h2>
+                <div class="testimonials">
+                    <div class="comment-wrap">
+                        <img src="images/president.jpg" alt="Senior missionary couple serving near a Temple.">
+                        <p>&ldquo;Temple Inn & Suites gave us the freedom to focus on the Lord's work.&rdquo;</p>
+                        <p class="name-wrap">- Family Galvez</p>
+                    </div>
+                    <div class="comment-wrap third-comment">
+                        <img src="images/padres.jpg" alt="Parents and two children pose for a family photo.">
+                        <p>&ldquo;Exceptional service. Will come again!&rdquo;</p>
+                        <p class="name-wrap">- The Gonzalez Family</p>
+                    </div>
+                    <div class="comment-wrap">
+                        <img src="images/kevin-vanessa.jpg" alt="The groom in a tuxedo on the beach.">
+                        <p>&ldquo;The perfect solution for our friends and family travelling to participate in our
+                            wedding.&rdquo;</p>
+                        <p class="name-wrap">- Kevin and Vanessa Gonzalez</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy;2019 Temple Inn & Suites | <a href="contact.html">Contact Us</a> | <a href="policies.html">Guest
+            Policies</a>
+        <p class="sub-footer"><a href="attributions.html">Attributions</a> | <a
+                href="https://eddyog.github.io/">Eddy Gonzalez</a></p>
+        <script src="java/home_java.js"></script>
+    </footer>
+</body>
+
+</html>
